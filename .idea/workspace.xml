@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="3" />
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7a3f8d01-2171-4cca-9662-21ab19a95669" name="Changes" comment="POO_">
-      <change afterPath="$PROJECT_DIR$/Bloque 1/Semana6/Aplicación de Conceptos de POO en Python.py" afterDir="false" />
+    <list default="true" id="7a3f8d01-2171-4cca-9662-21ab19a95669" name="Changes" comment="POO_01">
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -39,15 +41,14 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/vely2004/POO--Nahomi-Ceminario-A.git&quot;,
-    &quot;accountId&quot;: &quot;b2378835-2bca-40f0-a2ea-fe6738f2ad9d&quot;
+    &quot;accountId&quot;: &quot;b12d4c99-b851-41bd-bf02-53b2e2cd73d4&quot;
   }
 }</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Bloque 1/Semana5/Tipos de datos, Identificadores.py" root0="SKIP_INSPECTION" />
   </component>
   <component name="ProjectColorInfo">{
-  &quot;customColor&quot;: &quot;&quot;,
-  &quot;associatedIndex&quot;: 1
+  &quot;associatedIndex&quot;: 0
 }</component>
   <component name="ProjectId" id="2qGEBhJfzXAYoqvZfh8rarpANE3" />
   <component name="ProjectLevelVcsManager">
@@ -57,40 +58,141 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Notification.DisplayName-DoNotAsk-Execution": "External process execution failed",
-    "Notification.DoNotAsk-Execution": "true",
-    "Python.Aplicación de Conceptos de POO en Python.executor": "Run",
-    "Python.POO.executor": "Run",
-    "Python.Programación tradicional.executor": "Run",
-    "Python.Tienda de ropa.executor": "Run",
-    "Python.Tipos de datos, Identificadores..executor": "Debug",
-    "Python.Tipos de datos, Identificadores.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/Usuario/PycharmProjects/POO--Nahomi-Ceminario-A",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "project.scopes",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Notification.DisplayName-DoNotAsk-Execution&quot;: &quot;External process execution failed&quot;,
+    &quot;Notification.DoNotAsk-Execution&quot;: &quot;true&quot;,
+    &quot;Python.Aplicación de Conceptos de POO en Python.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Clase Inventario.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Interfaz_de_Usuario.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Inventario.executor&quot;: &quot;Run&quot;,
+    &quot;Python.POO.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Producto.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Programación tradicional.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Sistema de Gestión de Inventarios Mejorado.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Sistema de gestión de inventarios.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Tienda de ropa.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Tipos de datos, Identificadores..executor&quot;: &quot;Run&quot;,
+    &quot;Python.Tipos de datos, Identificadores.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.Unnamed.executor&quot;: &quot;Coverage&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Usuario\PycharmProjects\POO--Nahomi-Ceminario-A\Bloque 1" />
     </key>
   </component>
   <component name="RunAnythingCache">
+    <myKeys>
+      <visibility group="Grunt" flag="true" />
+      <visibility group="Gulp" flag="true" />
+      <visibility group="HTTP Requests" flag="true" />
+      <visibility group="Node.js" flag="true" />
+      <visibility group="Recent projects" flag="true" />
+      <visibility group="Run Python file" flag="true" />
+      <visibility group="Run conda command" flag="true" />
+      <visibility group="Run configurations" flag="true" />
+      <visibility group="Run pip command" flag="true" />
+      <visibility group="com.intellij.httpClient.http.request.run.HttpRequestRunAnythingProvider" flag="true" />
+      <visibility group="com.intellij.ide.actions.runAnything.RunAnythingRunConfigurationProvider" flag="true" />
+      <visibility group="com.intellij.ide.actions.runAnything.activity.RunAnythingRecentProjectProvider" flag="true" />
+      <visibility group="com.intellij.lang.javascript.buildTools.grunt.GruntRunAnythingProvider" flag="true" />
+      <visibility group="com.intellij.lang.javascript.buildTools.gulp.GulpRunAnythingProvider" flag="true" />
+      <visibility group="com.intellij.lang.javascript.buildTools.npm.NpmRunAnythingProvider.Npm" flag="true" />
+      <visibility group="com.intellij.lang.javascript.buildTools.npm.NpmRunAnythingProvider.Yarn" flag="true" />
+      <visibility group="com.jetbrains.nodejs.execution.NodeRunAnythingProvider" flag="true" />
+      <visibility group="com.jetbrains.python.run.runAnything.PyRunAnythingCondaProvider" flag="true" />
+      <visibility group="com.jetbrains.python.run.runAnything.PyRunAnythingFileProvider" flag="true" />
+      <visibility group="com.jetbrains.python.run.runAnything.PyRunAnythingPipProvider" flag="true" />
+      <visibility group="npm" flag="true" />
+      <visibility group="yarn" flag="true" />
+    </myKeys>
     <option name="myCommands">
       <command value="open POO--Nahomi-Ceminario-A" />
     </option>
   </component>
-  <component name="RunManager" selected="Python.Tipos de datos, Identificadores">
-    <configuration name="Tipos de datos, Identificadores" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.Sistema de Gestión de Biblioteca Digital">
+    <configuration name="Clase Inventario" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="POO--Nahomi-Ceminario-A" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Bloque 1/Semana9" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Bloque 1/Semana9/Clase Inventario.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Interfaz_de_Usuario" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="POO--Nahomi-Ceminario-A" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Bloque 1/Semana11" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Bloque 1/Semana11/Interfaz_de_Usuario.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Sistema de Gestión de Biblioteca Digital" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="POO--Nahomi-Ceminario-A" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Bloque 1/semana 12" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Bloque 1/semana 12/Sistema de Gestión de Biblioteca Digital.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Tipos de datos, Identificadores" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="POO--Nahomi-Ceminario-A" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -122,7 +224,7 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="SDK_NAME" value="Python 3.12" />
+      <option name="SDK_NAME" value="Python 3.13 (POO--Nahomi-Ceminario-A)" />
       <option name="WORKING_DIRECTORY" value="C:\Users\Usuario\PycharmProjects\POO--Nahomi-Ceminario-A" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="false" />
@@ -137,13 +239,43 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Unnamed" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="POO--Nahomi-Ceminario-A" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="Python 3.13 (POO--Nahomi-Ceminario-A)" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
+      <item itemvalue="Python.Unnamed" />
       <item itemvalue="Python.Tipos de datos, Identificadores" />
+      <item itemvalue="Python.Sistema de Gestión de Biblioteca Digital" />
+      <item itemvalue="Python.Interfaz_de_Usuario" />
+      <item itemvalue="Python.Clase Inventario" />
       <item itemvalue="Python.Tipos de datos, Identificadores." />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Tipos de datos, Identificadores" />
+        <item itemvalue="Python.Sistema de Gestión de Biblioteca Digital" />
+        <item itemvalue="Python.Interfaz_de_Usuario" />
+        <item itemvalue="Python.Clase Inventario" />
         <item itemvalue="Python.Tipos de datos, Identificadores." />
       </list>
     </recent_temporary>
@@ -151,8 +283,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-410509235cf1-JavaScript-PY-242.20224.347" />
-        <option value="bundled-python-sdk-c2d6afa66fbe-39cff9de6eef-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-242.20224.347" />
+        <option value="bundled-js-predefined-d6986cc7102b-822845ee3bb5-JavaScript-PY-243.23654.177" />
+        <option value="bundled-python-sdk-91d3a02ef49d-43b77aa2d136-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-243.23654.177" />
       </set>
     </attachedChunks>
   </component>
@@ -173,6 +305,19 @@
       <workItem from="1736560574910" duration="1889000" />
       <workItem from="1736562543913" duration="607000" />
       <workItem from="1736991453493" duration="299000" />
+      <workItem from="1739228200576" duration="220000" />
+      <workItem from="1739228436851" duration="316000" />
+      <workItem from="1739229002367" duration="275000" />
+      <workItem from="1739487716085" duration="1933000" />
+      <workItem from="1739492073737" duration="573000" />
+      <workItem from="1739545174644" duration="3134000" />
+      <workItem from="1739548736057" duration="153000" />
+      <workItem from="1739549005912" duration="571000" />
+      <workItem from="1739549594199" duration="224000" />
+      <workItem from="1739561189967" duration="2474000" />
+      <workItem from="1740332305419" duration="1080000" />
+      <workItem from="1740892379599" duration="896000" />
+      <workItem from="1741143612569" duration="552000" />
     </task>
     <task id="LOCAL-00001" summary="Clima">
       <option name="closed" value="true" />
@@ -246,7 +391,39 @@
       <option name="project" value="LOCAL" />
       <updated>1736562834860</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="POO_01">
+      <option name="closed" value="true" />
+      <created>1739563355146</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1739563355146</updated>
+    </task>
+    <task id="LOCAL-00011" summary="POO_01">
+      <option name="closed" value="true" />
+      <created>1739563545336</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1739563545336</updated>
+    </task>
+    <task id="LOCAL-00012" summary="POO_01">
+      <option name="closed" value="true" />
+      <created>1740332757337</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1740332757337</updated>
+    </task>
+    <task id="LOCAL-00013" summary="POO_01">
+      <option name="closed" value="true" />
+      <created>1740893144580</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1740893144580</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -257,12 +434,32 @@
     <MESSAGE value="Clima" />
     <MESSAGE value="POo" />
     <MESSAGE value="POO_" />
-    <option name="LAST_COMMIT_MESSAGE" value="POO_" />
+    <MESSAGE value="POO_01" />
+    <option name="LAST_COMMIT_MESSAGE" value="POO_01" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Bloque 1/Semana11/Interfaz_de_Usuario.py</url>
+          <line>62</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/POO__Nahomi_Ceminario_A$Programación_tradicional.coverage" NAME="Programación tradicional Coverage Results" MODIFIED="1734284135760" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Bloque 1/Semana3" />
+    <SUITE FILE_PATH="coverage/POO__Nahomi_Ceminario_A$Aplicación_de_Conceptos_de_POO_en_Python.coverage" NAME="Aplicación de Conceptos de POO en Python Coverage Results" MODIFIED="1739549813541" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Bloque 1/Semana6" />
+    <SUITE FILE_PATH="coverage/POO__Nahomi_Ceminario_A$Sistema_de_gestión_de_inventarios.coverage" NAME="Sistema de gestión de inventarios Coverage Results" MODIFIED="1739563372350" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Bloque 1/Semana9" />
+    <SUITE FILE_PATH="coverage/POO__Nahomi_Ceminario_A$Programación_tradicional.coverage" NAME="Programación tradicional Coverage Results" MODIFIED="1739549744884" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Bloque 1/Semana3" />
     <SUITE FILE_PATH="coverage/POO__Nahomi_Ceminario_A$Tipos_de_datos__Identificadores_.coverage" NAME="Tipos de datos, Identificadores. Coverage Results" MODIFIED="1736561580328" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Bloque 1/Semana5" />
-    <SUITE FILE_PATH="coverage/POO__Nahomi_Ceminario_A$POO.coverage" NAME="POO Coverage Results" MODIFIED="1734284068430" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Bloque 1/Semana3" />
+    <SUITE FILE_PATH="coverage/POO__Nahomi_Ceminario_A$Tipos_de_datos__Identificadores.coverage" NAME="Tipos de datos, Identificadores Coverage Results" MODIFIED="1739549806953" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Bloque 1/Semana5" />
+    <SUITE FILE_PATH="coverage/POO__Nahomi_Ceminario_A$Interfaz_de_Usuario.coverage" NAME="Interfaz_de_Usuario Coverage Results" MODIFIED="1740893029094" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Bloque 1/Semana11" />
+    <SUITE FILE_PATH="coverage/POO__Nahomi_Ceminario_A$Producto.coverage" NAME="Producto Coverage Results" MODIFIED="1740893102120" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Bloque 1/Semana11" />
     <SUITE FILE_PATH="coverage/POO__Nahomi_Ceminario_A$Tienda_de_ropa.coverage" NAME="Tienda de ropa Coverage Results" MODIFIED="1736552477883" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Bloque 1/EjemplosMundoReal_POO-Semana4" />
+    <SUITE FILE_PATH="coverage/POO__Nahomi_Ceminario_A$Inventario.coverage" NAME="Inventario Coverage Results" MODIFIED="1740893115733" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Bloque 1/Semana11" />
+    <SUITE FILE_PATH="coverage/POO__Nahomi_Ceminario_A$Sistema_de_Gestión_de_Inventarios_Mejorado.coverage" NAME="Sistema de Gestión de Inventarios Mejorado Coverage Results" MODIFIED="1740332885998" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Bloque 1/Semana10" />
+    <SUITE FILE_PATH="coverage/POO__Nahomi_Ceminario_A$Clase_Inventario.coverage" NAME="Clase Inventario Coverage Results" MODIFIED="1739563216813" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Bloque 1/Semana9" />
+    <SUITE FILE_PATH="coverage/POO__Nahomi_Ceminario_A$POO.coverage" NAME="POO Coverage Results" MODIFIED="1734284068430" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Bloque 1/Semana3" />
   </component>
 </project>
