@@ -1,78 +1,45 @@
 import tkinter as tk
-from tkinter import ttk
+from tkinter import messagebox
 
-# Función para agregar números y operadores a la entrada
-def agregar_caracter(caracter):
-    entrada.insert(tk.END, caracter)
+# Función para agregar información a la lista
+def agregar_info():
+    info = entrada.get()  # Obtiene el texto ingresado en el campo de entrada
+    if info:  # Si el campo no está vacío
+        lista.insert(tk.END, info)  # Inserta el texto en la lista
+        entrada.delete(0, tk.END)  # Limpia el campo de entrada
+    else:
+        messagebox.showwarning("Advertencia", "Por favor ingresa algo antes de agregar.")
 
-def calcular(*args):
-    try:
-        expresion = entrada.get()
-        resultado = eval(expresion)
-        entrada.delete(0, tk.END)
-        entrada.insert(tk.END, str(resultado))
-        log.config(text=f"Expresión: {expresion}")
-    except Exception:
-        entrada.delete(0, tk.END)
-        entrada.insert(tk.END, "Error")
-
-# Función para borrar el contenido de entrada
+# Función para limpiar el campo de entrada y la lista
 def limpiar():
-    entrada.delete(0, tk.END)
-    log.config(text="")
+    entrada.delete(0, tk.END)  # Limpia el campo de entrada
+    lista.delete(0, tk.END)  # Limpia la lista
 
-# Generar la ventana principal
+# Crear la ventana principal
 ventana = tk.Tk()
-ventana.title("Calculadora Velsh")
+ventana.title("Aplicación de Gestión de Información")
 ventana.geometry("400x350")
 
-# Centrar la ventana en la pantalla
-ventana.update_idletasks()
-anchura = 400
-altura = 350
-pantalla_ancho = ventana.winfo_screenwidth()
-pantalla_alto = ventana.winfo_screenheight()
-x = (pantalla_ancho // 2) - (anchura // 2)
-y = (pantalla_alto // 2) - (altura // 2)
-ventana.geometry(f"{anchura}x{altura}+{x}+{y}")
+# Etiqueta de título
+titulo = tk.Label(ventana, text="Ingrese la información:", font=("Arial", 14))
+titulo.pack(pady=10)
 
-# Crear menú
-barra_menu = tk.Menu(ventana)
-ventana.config(menu=barra_menu)
+# Campo de entrada de texto
+entrada = tk.Entry(ventana, font=("Arial", 12), width=30)
+entrada.pack(pady=10)
 
-menu_archivo = tk.Menu(barra_menu, tearoff=0)
-menu_archivo.add_command(label="Limpiar", command=limpiar)
-menu_archivo.add_separator()
-menu_archivo.add_command(label="Salir", command=ventana.quit)
-barra_menu.add_cascade(label="Archivo", menu=menu_archivo)
+# Botón para agregar la información
+boton_agregar = tk.Button(ventana, text="Agregar", font=("Arial", 12), command=agregar_info)
+boton_agregar.pack(pady=5)
 
-# Crear un campo de entrada
-entrada = tk.Entry(ventana, font=("Arial", 18), justify='right', bd=10, relief=tk.RIDGE)
-entrada.grid(row=0, column=0, columnspan=4, padx=10, pady=10, sticky="nsew")
-entrada.bind("<Return>", calcular)
-entrada.bind("<Escape>", lambda event: limpiar())
+# Lista para mostrar la información agregada
+lista = tk.Listbox(ventana, font=("Arial", 12), width=40, height=10)
+lista.pack(pady=10)
 
-# Crear un label para visualizar las operaciones
-log = tk.Label(ventana, text="", font=("Arial", 12), fg="pink")
-log.grid(row=1, column=0, columnspan=4)
+# Botón para limpiar la entrada y la lista
+boton_limpiar = tk.Button(ventana, text="Limpiar", font=("Arial", 12), command=limpiar)
+boton_limpiar.pack(pady=5)
 
-# Botones de la calculadora
-botones = [
-    ('7', 2, 0), ('8', 2, 1), ('9', 2, 2), ('/', 2, 3),
-    ('4', 3, 0), ('5', 3, 1), ('6', 3, 2), ('*', 3, 3),
-    ('1', 4, 0), ('2', 4, 1), ('3', 4, 2), ('-', 4, 3),
-    ('0', 5, 0), ('.', 5, 1), ('+', 5, 3)
-]
-
-def crear_boton(texto, fila, columna):
-    return tk.Button(ventana, text=texto, width=5, height=2, font=("Arial", 14), command=lambda: agregar_caracter(texto))\
-        .grid(row=fila, column=columna, padx=5, pady=5)
-
-# Ahora se vincula el "=" con la función de cálculo
-tk.Button(ventana, text="=", width=5, height=2, font=("Arial", 14), command=calcular).grid(row=5, column=2, padx=5, pady=5)
-
-# Crear los botones de la calculadora
-for (text, fila, columna) in botones:
-    crear_boton(texto=text, fila=fila, columna=columna)
-
+# Iniciar la aplicación
 ventana.mainloop()
+
